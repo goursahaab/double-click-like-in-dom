@@ -1,0 +1,58 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    /* margin-top: 30px; */
+    height: 100%;
+    border: 2px solid red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 50%;
+    height: 80%;
+    border: 2px solid green;
+    transition: 1.5s all;
+}
+.card p{
+    font-size: 15px;
+}
+.card i{
+    color: red;
+    font-size: 70px;
+    /* opacity: 0;
+    scale: 0;
+    transform: 0.5; */
+    /* transition: 0.25s; */
+}
+.heart{
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    scale: 0;
+    transition: 0.25s;
+}
+img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
